@@ -1,0 +1,184 @@
+<html>
+<head>
+    <title>Homepage</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('purplebg4.jpg'); /* Add the correct path */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .header {
+            background-color: rgba(147, 112, 219, 0.9);
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 30px;
+            border-bottom: 1px solid violet;
+        }
+
+        .header .title-container {
+            font-size: 15px;
+            font-weight: bold;
+            color: #000;
+            margin: 3;
+            line-height: 1;
+            word-wrap: break-word;
+            max-width: 300px;
+        }
+
+        .header .center-title {
+            flex-grow: 2;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #000;
+            font-family: Papyrus, sans-serif;
+        }
+
+        .header .menu {
+            display: flex;
+            gap: 20px;
+        }
+
+        .header .menu a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #000;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .header .menu a:hover {
+            color: #000;
+        }
+
+        .content-container {
+            display: flex;
+            align-items: center; 
+            gap: 50px; 
+            padding: 30px; 
+            background: transparent;
+            height: auto;
+            justify-content: center;
+        }
+
+        .content-container .text {
+            width: 500px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            font-family: Candara;
+            font-size: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .image-container img {
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-item {
+            text-align: center;
+        }
+
+        .image-item img {
+            width: 260px;
+            height: 250px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-item p {
+            margin-top: 10px;
+            font-size: 14px;
+            color: black;
+        }
+
+        /* Marquee Fix */
+        marquee {
+            display: block;
+            padding: 0;
+            background: transparent; /* Ensure transparent background */
+            border: none; 
+            color: darkviolet; 
+            font-size: 20px; 
+            font-weight: bold; 
+            margin: 0; 
+            overflow: hidden; 
+        }
+
+        /* Footer Section */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(147, 112, 219, 0.9);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="title-container">
+            <h1>Homepage</h1>
+        </div>
+        <div class="center-title"></div>
+        <div class="menu">
+            <a href="homepage.html">Home</a>
+            <a href="profile.html">Profile</a>
+            <a href="familyy.html">Family</a>
+            <a href="educational.html">Educational</a>
+            <a href="memoryy.html">Memory</a>
+        </div>
+    </div>
+
+    <marquee>Hello Welcome !!</marquee>
+    <marquee width="100%" direction="right">Enjoy exploring this website!</marquee>
+
+    <br>
+    <div class="content-container">
+        <div class="text">
+            <h1 style="border: 2px solid BlueViolet; font-size: 40px; text-align: center;">WELCOME TO THE HOMEPAGE</h1><br>
+            <pre style="text-align: center; font-size: 23px; color: DarkViolet;">
+Hello and Welcome everyone to my 
+website, in this website I will 
+share everything about me to you 
+guys so be ready to go through
+a journey
+            </pre>
+            <h2 style="text-align: center; color: Purple;"> To continue you may click on the header above. Enjoy! </h2>
+        </div>
+    </div>
+
+    <h1 style="text-align: center;">CONTACT ME</h1><br>
+    <div class="image-container">
+        <div class="image-item">
+            <a href="https://x.com/ainasaf99" target="_blank">
+                <img src="twitter1.png" style="width: 100px; height: 100px; text-align: center;">
+            </a>
+        </div>
+        <div class="image-item">
+            <a href="https://www.instagram.com/_nrainash_/?hl=en" target="_blank">
+                <img src="ig1.jpeg" style="width: 100px; height: 100px; text-align: center;">
+            </a>
+        </div>
+    </div>
+
+<br>
+<br>
+
+    <div class="footer">
+        <p>© 2024 My Profile Page. All rights reserved.</p>
+    </div>
+</body>
+</html>
